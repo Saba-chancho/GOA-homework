@@ -67,6 +67,6 @@ forward(30)
 left(90)
 forward(30)
 end_fill()
-penup()
+
 
 exitonclick()
