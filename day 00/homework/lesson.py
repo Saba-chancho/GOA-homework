@@ -1,6 +1,6 @@
 from turtle import *
 
-color("#8B4F39")
+color("brown")
 begin_fill()
 forward(100)
 left(90)
@@ -67,6 +67,5 @@ forward(30)
 left(90)
 forward(30)
 end_fill()
-penup()
 
 exitonclick()
