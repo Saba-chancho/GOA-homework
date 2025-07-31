@@ -1,2 +1,5 @@
-for i in range(2,22,2) :
-    print(i)
+user_input = int(input("enter the number: "))
+num = 0
+while num < user_input  :
+    print(num)
+    num += 1

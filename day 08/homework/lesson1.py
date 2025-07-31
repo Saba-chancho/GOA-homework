@@ -1,4 +1,2 @@
-num = 11
-while num > 1 :
-    num -= 1
-    print(num)
+for i in range(0,5,1) :
+    print("Hello world")

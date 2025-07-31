@@ -1,3 +1,3 @@
-name = input()
-age = input()
-print(f"name: {name}, age: {age} ")
+x = int(input())
+if x > 10 :
+    print("you are right")

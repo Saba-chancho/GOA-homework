@@ -1,6 +1,2 @@
-number = int(input("Enter a number: "))
-
-while number < 100:
-    number = int(input("The number must be greater than 100. Please enter again: "))
-
-print("correct")
+for i in range(0, 5, 1) :  # თავი
+    print(i)  # სხეული

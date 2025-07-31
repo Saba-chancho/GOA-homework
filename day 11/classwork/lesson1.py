@@ -1,6 +1,2 @@
-user_input = int(input("enter your number: "))
-
-if user_input % 2 :
-    print("შენი რიცხვი კენტია")
-else :
-    print("შენი რიცხვი ლუწია")    
+for i in range(10, 0, -1 ):
+    print(i)

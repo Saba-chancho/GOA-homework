@@ -1,7 +1,6 @@
-number = int(input("enter number: "))
+user_input = int(input("enter your number: "))
 
-i = 1
-
-while i <= number :
-    print(i)
-    i += 1
+if user_input % 2 :
+    print("შენი რიცხვი კენტია")
+else :
+    print("შენი რიცხვი ლუწია")    

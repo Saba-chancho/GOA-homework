@@ -1,1 +1,1 @@
-print(str(input())[0])
+#No classwork

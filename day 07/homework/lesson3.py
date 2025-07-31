@@ -1,5 +1,9 @@
-x = int(input())
-if x%2 == 0 and x>10 or x == 7:
-    print("true")
-if x%2 != 0 and x>10 or x<10 :
-    print("false")
+Correct_password = "python123"
+password = ""
+
+while password != Correct_password:
+    password = input("please enter password: ")
+    if password != Correct_password:
+        print("try again")
+
+print("password is correct")

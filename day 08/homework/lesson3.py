@@ -1,9 +1,5 @@
-Correct_password = "python123"
-password = ""
+# for loop გამოიყენება განმეორებისთვის — როცა გინდა კოდი რამდენჯერმე შესრულდეს
 
-while password != Correct_password:
-    password = input("please enter password: ")
-    if password != Correct_password:
-        print("try again")
-
-print("password is correct")
+# მაგალითად: დაბეჭდეთ რიცხვები 1-დან 10-მდე 
+for i in range(0, 11, 1):  # ციკლი იწყება i = 0-დან და მთავრდება 10-ზე 
+    print(i)

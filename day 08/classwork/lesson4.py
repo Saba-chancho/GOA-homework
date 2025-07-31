@@ -1,6 +1,7 @@
-names = input()
-num = 1
-while num < 5:
-    names += ", " + input()
-    num += 1
-print(names)
+for i in iter(int, 1) :
+    number = int(input("enter number: "))
+    if number > 100 :
+        print("correct")
+        break
+    else:
+        print("the number must be greater than 100. Please enter again")

@@ -1,18 +1,4 @@
-# if ნიშნავს "თუ" – ამოწმებს პირობას
-
-# მაგალითად:
-#if a > b:
-#    print("a > b")
-
-# ეს  ნიშნავს: თუ a უფრო მეტია ვიდრე b, მაშინ კოდი რომელიც იფის დაბლა წერია შესრულდეა
-
-# თუ პირობა მართალია (True) – კოდი სრულდება
-# თუ პირობა მცდარია (False) – კოდი არ სრულდება
-
-# if შეგიძლია შეაომოწმო:
-# > – მეტია
-# < – ნაკლებია
-# == – ტოლია
-# != – არ არის ტოლი
-# >= – მეტია ან ტოლი
-# <= – ნაკლებია ან ტოლი
+print(True or False and False or True and False or False and False or False and True and False or True)
+True
+print(5 > 10 or 7 * 7 / 7 == 7 and False or True and "1234" != "1234" and 7 + 3 * 3 + 1 == 15 and True and True or 100 > 100 or True)
+True

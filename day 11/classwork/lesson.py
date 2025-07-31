@@ -1,7 +1,4 @@
-user_input = int(input("enter your number: "))
-for i in range(0,user_input + 1) :
-    print(i)
-    if i%2 :
-        print("კენტი")
-    else :
-        print("ლუწი")    
+num1 = int(input("enter first number: "))
+num2 = int(input("enter second number: "))
+num3 = int(input("enter third number: "))
+print(num1 + num2 + num3)

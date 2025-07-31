@@ -1,1 +1,2 @@
-#No classwork
+while True :
+    print('hello')

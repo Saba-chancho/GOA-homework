@@ -1,9 +1,3 @@
-num1 = int(input())
-num2 = int(input())
-if num1 < num2 :
-    print("მეორე რიცხვი პირველზე მეტია")
-if num1 > num2 :
-    print("პირველი რიცხვი მეორესე მეტია")
-if num1 == num2 :
-    print("ორივე ტოლია")  
-    
+for i in range(1, 101):
+    if i % 2 != 0:
+        print(i)

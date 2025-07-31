@@ -1,4 +1,2 @@
-num = 0
-while num < 10 :
-    num += 1
-    print(num)
+for i in range(1,11,1) :
+    print(i) 
