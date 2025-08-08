@@ -1,10 +1,10 @@
-def greet(name):
-    print("გამარჯობა,", name)
+def greet(name) :
+    print("hello", name)
 
-greet("საბა")
+greet("saba")
 
-def greet1(name):
-    return "გამარჯობა, " + name
+def greet1(name) :
+    return "hello " + name
 
-message = greet1("საბა")
-print(message)
+greet2 = greet1("saba")
+print(greet2)

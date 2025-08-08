@@ -1,8 +1,5 @@
-def func(word, letter):
+def func(word, letter) :
     return word.find(letter)
 
-print(func("programireba", "p"))  
-print(func("goa", "g"))
-
-def func(word,letter) :
-    return word.lower().find(letter.lower())
+print(func("programireba", "o"))
+print(func("goa", "a"))
