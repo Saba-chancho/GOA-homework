@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: red;
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    font-size: 28px;
+}
+
+
+p {
+    color: darkgreen;
+    font-size: 18px;
+}
+
+
+.color3 {
+    color: purple;
+    background-color: pink;
+    font-style: italic;
+}
+
+#color4 {
+    color: orange;
+    font-size: 22px;
+    background-color: yellow;
+}
