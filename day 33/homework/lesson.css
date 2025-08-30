@@ -1,0 +1,18 @@
+.box{
+    background-color: blueviolet;
+    color: black;
+    padding: 40px;
+    border: solid #ee82ee;
+    margin: 0px;
+    font-size: 90px;
+
+}
+
+.button{
+    background-color: lightblue; 
+    padding: 12px 24px;          
+    border: 2px solid darkblue; 
+    font-size: 16px;   
+    margin-left: 650px;
+    margin-top: 250px;
+}
