@@ -1,0 +1,31 @@
+.span1 {
+    display: block;
+    background-color: red;
+    height: 50px;
+}
+.span2 {
+    display: block;
+    background-color: green;
+    height: 60px;
+}
+.span3 {
+    display: block;
+    background-color: blue;
+    height: 70px;
+}
+.p1{
+    display: inline;
+    background-color: rgb(174, 255, 0);
+}
+.p2{
+    display: inline;
+    background-color: rgb(0, 255, 51);
+}
+.p3{
+    display: inline;
+    background-color: rgb(255, 174, 124);
+}
+.p4{
+    display: inline;
+    background-color: rgb(95, 5, 5);
+}
