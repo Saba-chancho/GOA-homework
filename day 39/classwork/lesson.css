@@ -1,0 +1,10 @@
+p{
+    display: inline;
+    background-color: brown;
+    border: solid black;
+}
+.p1{
+    display: block;
+    background-color: blueviolet;
+    border: solid black;
+}
