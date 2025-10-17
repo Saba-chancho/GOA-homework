@@ -1,0 +1,38 @@
+.first{
+    background-color: brown;
+    height: 100px;
+    width: 90px;
+    transform: translate(100px, 200px);
+}
+.second{
+    background-color: rgb(50, 42, 165);
+    height: 100px;
+    width: 90px;
+    transform: translateX(400px);
+}
+.third{
+    background-color: rgb(54, 165, 42);
+    height: 100px;
+    width: 90px;
+    transform: scale(4);
+}
+.fourth{
+    background-color: rgb(165, 42, 42);
+    height: 100px;
+    width: 90px;
+    transform: rotate(-50deg);
+}
+.fifth{
+    background-color: rgb(56, 42, 165);
+    height: 100px;
+    width: 90px;
+    transform: rotate(100deg);
+}
+.sixth{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    transform: translate(50px, 100px) ;
+    transform: scale(3);
+    transform: rotate(120deg);
+}
