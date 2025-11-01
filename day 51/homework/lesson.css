@@ -1,0 +1,70 @@
+/* ანიმაცია გამოიყენება იმისთვის, რომ ელემენტები გახდეს ცოცხალი და მიმზიდველი. */
+/* ანიმაციის შესაქმნელად ვიყენებთ @keyframes-ს, */
+/* @keyframes → გამოიყენება უფრო რთული, განმეორებადი ან მრავალეტაპიანი ანიმაციის თვის */
+/* transition გამოიყენება მარტივი ცვლილებისთვის მაგ. hover-ზე ერთი ეფექტი. */
+.box{
+    width: 150px;
+    height: 150px;
+    background: lightblue;
+    border-radius: 15px;
+    transition: transform 0.8s;
+}
+.box:hover{
+    transform: rotateY(180deg);
+}
+@keyframes moveY {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(100px); }
+    100% { transform: translateY(0); }
+}
+.moving {
+    width: 80px;
+    height: 80px;
+    background: tomato;
+    border-radius: 50%;
+    animation: moveY 2s infinite;
+}
+@keyframes bgChange {
+    0% { background-color: red; }
+    25% { background-color: orange; }
+    50% { background-color: yellow; }
+    75% { background-color: green; }
+    100% { background-color: blue; }
+}
+body {
+    animation: bgChange 5s infinite alternate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.progress-container {
+    width: 300px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}   
+.progress {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #00f, #0ff);
+    animation: grow 4s forwards;
+    border-radius: 10px;
+}
+@keyframes grow {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+@keyframes slideIn {
+    from { transform: translateX(-200px);}
+    to { transform: translateX(0);}
+}
+.slide-text {
+    font-size: 24px;
+    font-weight: bold;
+    animation: slideIn 2s ease-out forwards;
+    margin-top: 20px;
+}
