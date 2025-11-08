@@ -1,0 +1,129 @@
+/* 1) თუ რომელიმე თეგს უწერია z-index რაც არუნდა დაბლა იყოს ის მაინც დომინანდური იქნება სხვა დანარჩენ თგებთან
+მაგალითად: თუ გვაქვს 2 div-ი div1,div2 და თუ div2-ს z-index(1) უწერია და div1-ს z-index(2) უწერია div1 div2-ს გადაეფარება */
+
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:absolute;
+    z-index:1;
+
+}
+.div2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    position:absolute;
+    z-index: 2;
+    top: 50px;
+}
+.img1, .img2, .img3{
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    margin-top: 200px;
+}
+.img1{
+    z-index: 1;
+    top: 10px;
+    border: 2px solid black;
+}
+.img2{
+    z-index: 2;
+    top: 20px;
+    border: 2px solid black;
+}
+.img3{
+    z-index: 3;
+    top: 30px;
+    border: 2px solid black;
+}
+
+/* 4) linear-gradient — ფუნქცია ხაზური გრადიენტის შესაქმნელად. */
+
+.box{
+    position: absolute;
+    top: 400px;
+    height: 200px;
+    width: 200px;
+    background:linear-gradient(to right, rgb(255, 0, 0),rgb(255, 255, 0)) ;
+}
+
+.box1{
+    position: absolute;
+    top: 600px;
+    height: 200px;
+    width: 200px;
+    background:linear-gradient( to left, rgb(51, 0, 255),rgb(255, 255, 255)) ;
+}
+
+.button1{
+    position: absolute;
+    left: 200px;
+    height: 200px;
+    width: 200px;
+    background:linear-gradient( to left, rgb(0, 255, 38),rgb(255, 255, 255)) ;
+    border-radius: 50%;
+}
+
+/* 8) px ზომავს პიქსელებით
+2) em განისაზღვრება ტექსრის ზომით
+3) vh/vw ეკრანის ზომით
+4) % მშობელი თეგის პროცენტების მიხედვით */
+
+.container{
+    position: absolute;
+    left: 500px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    
+}
+
+.box2{
+    height: 10%;
+    width: 50%;
+    background-color: black;
+}
+
+p{
+    font-size: 2em;
+    color: blue;
+}
+
+/* 11) Media Query — საშუალებას გაძლევს შეცვალო სტილი სხვადასხვა მოწყობილობის ეკრანის ზომისა და თვისებების მიხედვით */
+
+
+.green{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+  @media (max-width: 500px) {
+    .green{
+      background-color: red;
+    }
+}
+
+h1{
+  text-align: left;
+    font-size: 2rem;
+}
+
+ @media (max-width: 768px) {
+    h1 {
+      text-align: center;
+    }
+}
+
+.img4{
+    height: 400px;
+    width: 400px;
+}
+
+ @media (max-width: 768px) {
+    .img4 {
+    height: 200px;
+    width: 200px;
+    }
+}

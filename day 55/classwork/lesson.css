@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  gap: 10px;
+  background: #ffffff;
+  margin-bottom: 20px;
+  height: 200px;
+  border: 2px solid #ccc;
+}
+
+.box {
+  background: lightcoral;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.tall {
+  height: 100px;
+}
+
+.start {
+  align-items: start;
+}
+
+.center {
+  align-items: center;
+}
+
+.end {
+  align-items: end;
+}
