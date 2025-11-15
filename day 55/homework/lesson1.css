@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.box {
+  background: #ffffff;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.a { background: lightcoral;   grid-column: span 2; }
+.b { background: lightblue;    }
+.c { background: lightgreen;   }
+.d { background: gold;         grid-column: span 3; }
+.e { background: plum;         }
+.f { background: khaki;        grid-column: span 2; }
+.g { background: lightsalmon;  }
+.h { background: lightseagreen;}
+

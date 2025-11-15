@@ -1,0 +1,19 @@
+/* 1) Grid გაძლევს საშუალებას, რომ გვერდზე ელემენტები განათავსო სვეტებად და მწკრივებად */
+/* 6) start — შიგთავსი მიდის მარცხენა მხარეს
+center — შიგთავსი შუაში დგება
+end — შიგთავსი მიდის მარჯვენა მხარეს
+stretch — ელემენტი იჭიმება და ავსებს მთელ ჰორიზონტალურ სივრცეს */
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+}

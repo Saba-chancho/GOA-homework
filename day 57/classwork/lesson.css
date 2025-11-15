@@ -1,0 +1,33 @@
+.B{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    transition: 0.3s;
+}
+.B:hover{
+    scale: 1.1;
+    background-color:  blue;
+}
+
+.D{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.D:active{
+    transform:translateY(20px);
+    background-color: rgb(41, 11, 11);
+}
+
+
+input {
+    transition:0.3s;
+}
+
+input:focus {
+    outline: 2px solid blue;
+    outline-offset: 2px;
+    scale: 1.1;
+}
