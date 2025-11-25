@@ -1,0 +1,111 @@
+/* 1) ფსეუდო კლასები გამოიყენება საიტის ვიზუალისთვის და მის გასაცოცხლებლად, არის ძალიან გამოყენებადი და ყველა საიტში ვხვდებით */
+
+/* 2) hoveri გამოიყენება როდესაც ჩვენი მაუსის კურსორი მივა რაიმე თეგთან ის თეგი ანიმაციას გააკეთებს */
+
+/* 3) */
+
+.button1{
+    width: 200px;
+    height:30px;
+    background-color: rgb(52, 46, 38);
+    border-radius: 10px;
+    color: rgb(0, 13, 255);
+    transition: 0.5s;
+}
+
+.button1:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+
+/* :active */
+/* 6) active იგივეა როგორც hover მაგრამ მუშაობს მაშინ როდესაც კურსორს დავაკლიკებთ კონკრეტულ თეგს  */
+
+/* 7) */
+.button2{
+    width: 200px;
+    height:30px;
+    background-color: rgb(52, 29, 0);
+    border-radius: 10px;
+    color: rgb(170, 255, 0);
+    transition: 0.5s;
+}
+
+.button2:hover{
+    transform: scale(2);
+}
+
+.button2:active{
+    transform: scale(0.95);
+}
+
+
+/* :focus */
+/* 10) როდესაც მომხმარებლის ფოკუზი მოხდება რომელიმე თეგზე (მაგალითად input თეგში ტექსტის ჩაწერაზე, text area-ზე და ასე შემდეგ) 
+focus selector იწყებს მუშაობას და სანამ სხვა თეგზე არ გადავიტანთ ფოკუზირებას მანამდე ეს თეგი ფოკუზის ქვეშ რჩება.*/
+
+/* 11) */
+.input1{
+    width: 200px;
+    height: 18px;
+    transition: 0.4s;
+}
+
+.input1:focus{
+    box-shadow: 2px 2px 4px gray;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: 3px solid black;
+    background-color: rgb(247, 241, 241);
+}
+
+/* :valid, :invalid */
+/* 15) :valid და :invalid ამოწმებს form თეგებს(input, checkbox და ასე შემდეგ) სწორია თუ არასწორი, 
+თუ არის სწორი მაშინ გაეშვება :valid და თუ არასწორი :invalid */
+
+/* 17) */
+
+.inp1{
+    width: 200px;
+    height: 18px;
+    transition: 0.1s;
+
+}
+
+.inp1:valid{
+    border: 2px solid greenyellow;
+}
+
+.inp1:invalid{
+    border: 2px solid red;
+}
+
+
+/* 18) როდესაც ლინკის მეშვეობით მოხდება რომელიმე თეგის ამორჩევა ამ შემთხვევაში იმუშავებდა target */
+/* 19) */
+section {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+}
+
+
+section:target {
+    background-color: red;
+}
+
+/* 20) is გვეხმარება რამოდენიმე სხვადასხვა თეგის ერთიანად გასტილვაში */
+
+:is(h1,h2,h3){
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
