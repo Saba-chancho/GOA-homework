@@ -1,0 +1,73 @@
+*{
+font-family: "Outfit", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+color: hsl(30, 10%, 34%);
+}
+body{
+    background-color:hsl(30, 54%, 90%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: "Young Serif", serif;
+  font-weight: 100;
+  color: black;
+}
+.container{
+    display: grid;
+    background-color:hsl(0, 0%, 100%);
+    width: 50% ;
+    height: 1900px;
+    margin: 40px;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+img{
+    width: 100% ;
+    border-radius: 15px;
+}
+
+p{
+   color: hsl(24, 5%, 18%); 
+}
+
+.pink{
+    background-color: hsl(330, 100%, 98%) ;
+
+}
+
+.Preparation{
+    padding: 20px;
+    position: relative;
+    color:  hsl(332, 51%, 32%);
+    left: -20px;
+}
+
+.Ingredients{
+    position: relative;
+    color:  hsl(14, 45%, 36%);
+    left: -20px;
+
+}
+
+.Instructions{
+    position: relative;
+    color:  hsl(14, 45%, 36%);
+    left: -20px;
+
+}
+.nutritional{
+    color:  hsl(14, 45%, 36%);
+}
+.nutr{
+    color:  hsl(14, 45%, 36%);
+}
+
+li::marker{
+    color: hsl(14, 45%, 36%) ;
+    font-weight: bold;
+}

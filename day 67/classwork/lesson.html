@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1 id="title">title</H1>
+
+    <p class="text">First paragraph</p>
+    <p class="text">Second paragraph</p>
+    <p class="text">Third paragraph</p>
+
+    <div id="box"></div>
+
+    <button>Click me</button>
+    <p id="myText">Styled text</p>
+
+    <script>
+        const titles = document.getElementById("title")
+        console.log(titles)
+
+        const textsByClass = document.getElementsByClassName("text");
+        console.log(textsByClass);
+
+        const textsByTag = document.getElementsByTagName("p");
+        console.log(textsByTag);
+
+        const box = document.getElementById("box");
+        box.style.width = "100px";
+        box.style.height = "100px";
+        box.style.backgroundColor = "red";
+
+        const myText = document.getElementById("myText");
+        myText.style.color = "blue";
+        myText.style.fontSize = "24px";
+        myText.style.fontFamily = "Arial";
+    </script>
+
+    <!-- DOM ნიშნავს Document Object Model-ს -->
+    <!-- DOM არის HTML დოკუმენტის სტრუქტურა, რომელიც წარმოდგენილია ობიექტების სახით  და ის ხიდია html-ისა და js შორის-->
+</body>
+</html>
+
+
